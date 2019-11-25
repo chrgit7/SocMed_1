@@ -1,2 +1,2 @@
 # SocMed_1
-Social media website
+Social media website demo
