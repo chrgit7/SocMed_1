@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.background{
+ background-image: url("img/board.png");
+}
+button {
+ background-color: rgb(14,31,0);
+}
+</style>
+</head>
+<body>
+<div class="background">
+  <form action="file.php">
+  <div class="imgcontainer">
+    <img src="img/LogoTransparent.png" alt="Logo" class="logo" style="opacity:1">
+  </div>
+
+  <div class="container">
+    <label for="userName"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="userName" required>
+
+    <label for="userPassword"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="userPassword" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="rememberMe"> Remember Me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelButton">Cancel</button>
+    <span class="userPassword">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</div>
+</body>
+</html>
