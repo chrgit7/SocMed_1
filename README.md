@@ -1,2 +1,2 @@
-# SocMed_1
-Social media website demo
+# Social Media
+A social media website demo using HTML, CSS, PHP, MySQL, Javascript
